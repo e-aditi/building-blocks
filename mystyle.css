@@ -1,0 +1,173 @@
+.resize-img{
+	position: relative;
+	max-height:150px;
+	max-width:100%;
+	margin-bottom: 10px;
+	margin-left: 35%;
+}
+.my-intro{
+	text-align: left;
+	color: white;
+	font-size: 120%;
+}
+.collapsible {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  background-color: rgba(40,26,13,0.9);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  margin-left: 10%;
+  width: 80%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+.active, .collapsible:hover {
+  background-color: #777;
+}
+
+.content {
+  padding: 18px;
+  width: 80%;
+  margin-left: 10%;
+  display: none;
+  overflow: hidden;
+  background-color: rgba(245,192,190,1);
+  font-size: 18px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  margin-top: 20 px;
+  margin-left: 20%;
+  max-width: 60%;
+  position: relative;
+  /*margin: auto;*/
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;/* very clear negative margin explanation - https://www.quirksmode.org/blog/archives/2020/02/negative_margin.html */
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* very good explanation on padding- https://developer.mozilla.org/en-US/docs/Web/CSS/padding */
+/* same site, very nice explanation on positioning in css.
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.hero-image {
+  background-image: url("https://i.pinimg.com/736x/e8/0a/42/e80a42fe49efdc18da707fb16228fb7c.jpg");
+  background-color: #cccccc;
+  /*height: 500px;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.secbackground{
+	/*background-color: #000000;*/
+	background-color: rgba(40,26,13,0.9);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25%;
+	top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10%;
+	width: 80%;
+	position: relative;
+}
+
+.texinstabackground{
+	text-align: center;
+	background-color: rgba(40,26,13,0.9);
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left:30%;
+	width: 40%;
+	position: relative;
+}
+/* excellent explanation on spacing  -https://ishadeed.com/article/spacing-in-css/ */
+.contactbackground{
+	text-align: center;
+	background-color: rgba(40,26,13,0.9);
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 50px;
+	top: 10px;
+	bottom: 20px;
+	margin-left:25%;
+	width: 50%;
+	position: relative;
+}
